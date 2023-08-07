@@ -1,0 +1,57 @@
+.app {
+  background-color: #4973f2;
+  text-align: center;
+  border-radius: 10px;
+  margin: 5rem 5rem 2.5rem 5rem;
+  padding: 1rem;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.app img {
+  width: 15rem;
+  height: 15rem;
+  margin-top: -4rem;
+  margin-bottom: -1rem;
+  border-radius: 30px;
+  border: 1px solid #000000;
+}
+
+.app h1 {
+  color: #f2f2f2;
+  background-color: #1b2040;
+  border-radius: 10px;
+}
+
+.app h2 {
+  font-size: 1.5rem;
+  background-color: #e8e8e8;
+  border-radius: 10px;
+  color: #000000;
+  font-size: 1.5rem;
+  margin: 0 auto;
+  padding: 0.3rem;
+  width: 90%;
+}
+
+.socialNetwork {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.socialNetwork svg {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 10px;
+  padding-top: 5px;
+}
+
+.socialNetwork a:hover {
+  transform: scale(1.5);
+  transition: 0.5s;
+}

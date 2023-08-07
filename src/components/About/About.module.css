@@ -1,0 +1,36 @@
+.app {
+  background-color: #4973f2;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 85%;
+  margin-bottom: 2rem;
+}
+
+.mainContent {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  line-height: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.app h2 {
+  margin-bottom: 1rem;
+}
+
+.app h2::after {
+  background-color: #f2911b;
+  content: "";
+  display: inline-block;
+  height: 3px;
+  position: relative;
+  vertical-align: middle;
+  width: 35%;
+  margin-left: 1rem;
+}
+
+.app p {
+  margin-left: -0.5rem;
+  padding-left: 0.8rem;
+}
